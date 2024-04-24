@@ -1,0 +1,23 @@
+{
+    "name": "scullder/telegram-bot-api",
+    "description": "Telegram bot API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Scullder\\TelegramBotApi\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/log": "^3.0",
+        "psr/http-factory": "^1.0",
+        "symfony/http-client": "^7.0",
+        "php-http/curl-client": "^2.3",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
